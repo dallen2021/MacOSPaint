@@ -5,6 +5,10 @@ Versioning while releases remain in the `0.x` series.
 
 ## Unreleased
 
+### Added
+
+- Original Crop Window application icon in graphite, ivory, coral, and teal.
+
 ## 0.1.0 - 2026-07-23
 
 ### Added
