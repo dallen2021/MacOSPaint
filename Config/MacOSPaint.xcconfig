@@ -1,0 +1,31 @@
+// Shared native-app build settings. CI intentionally builds unsigned; a
+// future signed distribution configuration can override these values.
+
+ARCHS = arm64
+ONLY_ACTIVE_ARCH = NO
+SUPPORTED_PLATFORMS = macosx
+SDKROOT = macosx
+MACOSX_DEPLOYMENT_TARGET = 26.0
+
+PRODUCT_NAME = $(TARGET_NAME)
+PRODUCT_BUNDLE_IDENTIFIER = io.github.dallen2021.macospaint
+PRODUCT_MODULE_NAME = MacOSPaint
+MARKETING_VERSION = 0.1.0
+CURRENT_PROJECT_VERSION = 1
+
+SWIFT_VERSION = 6.0
+SWIFT_STRICT_CONCURRENCY = complete
+SWIFT_EMIT_LOC_STRINGS = YES
+
+GENERATE_INFOPLIST_FILE = NO
+INFOPLIST_FILE = Config/MacOSPaint-Info.plist
+CODE_SIGN_ENTITLEMENTS = Config/MacOSPaint.entitlements
+ENABLE_APP_SANDBOX = YES
+ENABLE_HARDENED_RUNTIME = YES
+
+// Source-first builds must not require an Apple Developer identity.
+CODE_SIGNING_ALLOWED = NO
+CODE_SIGNING_REQUIRED = NO
+CODE_SIGN_IDENTITY =
+
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/../Frameworks

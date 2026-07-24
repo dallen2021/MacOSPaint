@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10000000000000000000001 /* MacOSPaintApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000001 /* MacOSPaintApp.swift */; };
+		B10000000000000000000002 /* MacOSPaintDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000002 /* MacOSPaintDocument.swift */; };
+		B10000000000000000000003 /* ArtboardFilmstripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000003 /* ArtboardFilmstripView.swift */; };
+		B10000000000000000000004 /* BrushStrokeSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000004 /* BrushStrokeSurface.swift */; };
+		B10000000000000000000005 /* CanvasWorkspaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000005 /* CanvasWorkspaceView.swift */; };
+		B10000000000000000000006 /* InspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000006 /* InspectorView.swift */; };
+		B10000000000000000000007 /* StudioRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000007 /* StudioRootView.swift */; };
+		B10000000000000000000008 /* StudioState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000008 /* StudioState.swift */; };
+		B10000000000000000000009 /* StudioTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000009 /* StudioTheme.swift */; };
+		B1000000000000000000000A /* ToolRailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000A /* ToolRailView.swift */; };
+		B1000000000000000000000B /* TopShelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000B /* TopShelfView.swift */; };
+		B1000000000000000000000C /* XcodeResourceBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000010 /* XcodeResourceBundle.swift */; };
+		B1000000000000000000000D /* coastal-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000C /* coastal-landscape.png */; };
+		B1000000000000000000000E /* coastal-square.png in Resources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000D /* coastal-square.png */; };
+		B1000000000000000000000F /* coastal-story.png in Resources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000E /* coastal-story.png */; };
+		B10000000000000000000010 /* PaintModel in Frameworks */ = {isa = PBXBuildFile; productRef = A20000000000000000000002 /* PaintModel */; };
+		B10000000000000000000011 /* PaintEngine in Frameworks */ = {isa = PBXBuildFile; productRef = A20000000000000000000003 /* PaintEngine */; };
+		B10000000000000000000012 /* PaintIO in Frameworks */ = {isa = PBXBuildFile; productRef = A20000000000000000000004 /* PaintIO */; };
+		B10000000000000000000013 /* coastal-square-footer.png in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000014 /* coastal-square-footer.png */; };
+		B10000000000000000000014 /* gouache-swatch.png in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015 /* gouache-swatch.png */; };
+		B10000000000000000000015 /* coastal-square-final.png in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000016 /* coastal-square-final.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10000000000000000000001 /* MacOSPaintApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSPaintApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000002 /* MacOSPaintDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSPaintDocument.swift; sourceTree = "<group>"; };
+		A10000000000000000000003 /* ArtboardFilmstripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtboardFilmstripView.swift; sourceTree = "<group>"; };
+		A10000000000000000000004 /* BrushStrokeSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrushStrokeSurface.swift; sourceTree = "<group>"; };
+		A10000000000000000000005 /* CanvasWorkspaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasWorkspaceView.swift; sourceTree = "<group>"; };
+		A10000000000000000000006 /* InspectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorView.swift; sourceTree = "<group>"; };
+		A10000000000000000000007 /* StudioRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioRootView.swift; sourceTree = "<group>"; };
+		A10000000000000000000008 /* StudioState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioState.swift; sourceTree = "<group>"; };
+		A10000000000000000000009 /* StudioTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioTheme.swift; sourceTree = "<group>"; };
+		A1000000000000000000000A /* ToolRailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolRailView.swift; sourceTree = "<group>"; };
+		A1000000000000000000000B /* TopShelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopShelfView.swift; sourceTree = "<group>"; };
+		A1000000000000000000000C /* coastal-landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coastal-landscape.png"; sourceTree = "<group>"; };
+		A1000000000000000000000D /* coastal-square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coastal-square.png"; sourceTree = "<group>"; };
+		A1000000000000000000000E /* coastal-story.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coastal-story.png"; sourceTree = "<group>"; };
+		A1000000000000000000000F /* MacOSPaint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSPaint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000010 /* XcodeResourceBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeResourceBundle.swift; sourceTree = "<group>"; };
+		A10000000000000000000011 /* MacOSPaint-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacOSPaint-Info.plist"; sourceTree = "<group>"; };
+		A10000000000000000000012 /* MacOSPaint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOSPaint.entitlements; sourceTree = "<group>"; };
+		A10000000000000000000013 /* MacOSPaint.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacOSPaint.xcconfig; sourceTree = "<group>"; };
+		A10000000000000000000014 /* coastal-square-footer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coastal-square-footer.png"; sourceTree = "<group>"; };
+		A10000000000000000000015 /* gouache-swatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gouache-swatch.png"; sourceTree = "<group>"; };
+		A10000000000000000000016 /* coastal-square-final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coastal-square-final.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000010 /* PaintModel in Frameworks */,
+				B10000000000000000000011 /* PaintEngine in Frameworks */,
+				B10000000000000000000012 /* PaintIO in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				C10000000000000000000002 /* MacOSPaintApp */,
+				C10000000000000000000005 /* Config */,
+				C10000000000000000000006 /* Frameworks */,
+				C10000000000000000000007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C10000000000000000000002 /* MacOSPaintApp */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000001 /* MacOSPaintApp.swift */,
+				A10000000000000000000002 /* MacOSPaintDocument.swift */,
+				C10000000000000000000003 /* Studio */,
+				C10000000000000000000004 /* Resources */,
+			);
+			path = Sources/MacOSPaintApp;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000003 /* Studio */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000003 /* ArtboardFilmstripView.swift */,
+				A10000000000000000000004 /* BrushStrokeSurface.swift */,
+				A10000000000000000000005 /* CanvasWorkspaceView.swift */,
+				A10000000000000000000006 /* InspectorView.swift */,
+				A10000000000000000000007 /* StudioRootView.swift */,
+				A10000000000000000000008 /* StudioState.swift */,
+				A10000000000000000000009 /* StudioTheme.swift */,
+				A1000000000000000000000A /* ToolRailView.swift */,
+				A1000000000000000000000B /* TopShelfView.swift */,
+			);
+			path = Studio;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000004 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1000000000000000000000C /* coastal-landscape.png */,
+				A1000000000000000000000D /* coastal-square.png */,
+				A10000000000000000000014 /* coastal-square-footer.png */,
+				A10000000000000000000016 /* coastal-square-final.png */,
+				A1000000000000000000000E /* coastal-story.png */,
+				A10000000000000000000015 /* gouache-swatch.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000005 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000011 /* MacOSPaint-Info.plist */,
+				A10000000000000000000012 /* MacOSPaint.entitlements */,
+				A10000000000000000000013 /* MacOSPaint.xcconfig */,
+				A10000000000000000000010 /* XcodeResourceBundle.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000006 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1000000000000000000000F /* MacOSPaint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* MacOSPaint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10000000000000000000002 /* Build configuration list for PBXNativeTarget "MacOSPaint" */;
+			buildPhases = (
+				D10000000000000000000002 /* Sources */,
+				D10000000000000000000001 /* Frameworks */,
+				D10000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacOSPaint;
+			packageProductDependencies = (
+				A20000000000000000000002 /* PaintModel */,
+				A20000000000000000000003 /* PaintEngine */,
+				A20000000000000000000004 /* PaintIO */,
+			);
+			productName = MacOSPaint;
+			productReference = A1000000000000000000000F /* MacOSPaint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10000000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					E10000000000000000000001 = {
+						CreatedOnToolsVersion = 26.0;
+						SystemCapabilities = {
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F10000000000000000000001 /* Build configuration list for PBXProject "MacOSPaint" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C10000000000000000000001;
+			packageReferences = (
+				A20000000000000000000001 /* XCLocalSwiftPackageReference "." */,
+			);
+			productRefGroup = C10000000000000000000007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10000000000000000000001 /* MacOSPaint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D10000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1000000000000000000000D /* coastal-landscape.png in Resources */,
+				B1000000000000000000000E /* coastal-square.png in Resources */,
+				B10000000000000000000013 /* coastal-square-footer.png in Resources */,
+				B10000000000000000000015 /* coastal-square-final.png in Resources */,
+				B1000000000000000000000F /* coastal-story.png in Resources */,
+				B10000000000000000000014 /* gouache-swatch.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D10000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000001 /* MacOSPaintApp.swift in Sources */,
+				B10000000000000000000002 /* MacOSPaintDocument.swift in Sources */,
+				B10000000000000000000003 /* ArtboardFilmstripView.swift in Sources */,
+				B10000000000000000000004 /* BrushStrokeSurface.swift in Sources */,
+				B10000000000000000000005 /* CanvasWorkspaceView.swift in Sources */,
+				B10000000000000000000006 /* InspectorView.swift in Sources */,
+				B10000000000000000000007 /* StudioRootView.swift in Sources */,
+				B10000000000000000000008 /* StudioState.swift in Sources */,
+				B10000000000000000000009 /* StudioTheme.swift in Sources */,
+				B1000000000000000000000A /* ToolRailView.swift in Sources */,
+				B1000000000000000000000B /* TopShelfView.swift in Sources */,
+				B1000000000000000000000C /* XcodeResourceBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F10000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F10000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F10000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A10000000000000000000013 /* MacOSPaint.xcconfig */;
+			buildSettings = {
+				ENABLE_PREVIEWS = YES;
+			};
+			name = Debug;
+		};
+		F10000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A10000000000000000000013 /* MacOSPaint.xcconfig */;
+			buildSettings = {
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10000000000000000000001 /* Build configuration list for PBXProject "MacOSPaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10000000000000000000003 /* Debug */,
+				F10000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10000000000000000000002 /* Build configuration list for PBXNativeTarget "MacOSPaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10000000000000000000005 /* Debug */,
+				F10000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A20000000000000000000001 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A20000000000000000000002 /* PaintModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A20000000000000000000001 /* XCLocalSwiftPackageReference "." */;
+			productName = PaintModel;
+		};
+		A20000000000000000000003 /* PaintEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A20000000000000000000001 /* XCLocalSwiftPackageReference "." */;
+			productName = PaintEngine;
+		};
+		A20000000000000000000004 /* PaintIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A20000000000000000000001 /* XCLocalSwiftPackageReference "." */;
+			productName = PaintIO;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E10000000000000000000002 /* Project object */;
+}

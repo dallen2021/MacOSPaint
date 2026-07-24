@@ -1,0 +1,22 @@
+name: Feature request
+description: Propose a user workflow or capability
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow and user need
+      description: Describe the job to be done, not only the desired control.
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current workaround
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Successful outcome
+    validations:
+      required: true
