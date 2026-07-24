@@ -5,8 +5,8 @@ The Coastal Keepers artwork and Gouache brush swatch in
 for MacOSPaint with OpenAI's built-in image generation tools. They do not use
 third-party logos or source artwork.
 
-- `AppIcon.png` is the 1024×1024 sRGB master for the original graphite,
-  ivory, coral, and teal MacOSPaint mark. `AppIcon.icns` is the mechanically
+- `AppIcon.png` is the 1024×1024 sRGB master for the original Crop Window
+  mark in graphite, ivory, coral, and teal. `AppIcon.icns` is the mechanically
   generated multi-resolution macOS icon container.
 - `coastal-landscape.png`, `coastal-square.png`, and `coastal-story.png` are
   the three campaign artboard previews.

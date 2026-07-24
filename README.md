@@ -1,7 +1,7 @@
 # MacOSPaint
 
 <p align="center">
-  <img src="Sources/MacOSPaintApp/Resources/AppIcon.png" width="128" alt="MacOSPaint app icon">
+  <img src="Sources/MacOSPaintApp/Resources/AppIcon.png" width="128" alt="MacOSPaint Crop Window app icon">
 </p>
 
 MacOSPaint is a native, local-first image editor for Apple-silicon Macs. It
@@ -29,7 +29,7 @@ product direction. Demo artwork provenance is documented in
 - Transaction-shaped edits with named undo payloads.
 - Versioned `.macospaint` package persistence.
 - Native SwiftUI/AppKit studio matching the selected light and graphite themes.
-- Original multi-resolution macOS app icon matching the studio palette.
+- Original multi-resolution Crop Window app icon matching the studio palette.
 - Full 25-tool rail plus a workspace-specific shelf that can pin any tool or
   special workflow action.
 - Side-by-side artboard editing and a persistent bottom artboard filmstrip.
