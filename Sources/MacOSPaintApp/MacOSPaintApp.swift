@@ -25,6 +25,18 @@ struct MacOSPaintApp: App {
 final class StudioAppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
         NSApplication.shared.setActivationPolicy(.regular)
+        let iconURL = Bundle.module.url(
+            forResource: "AppIcon",
+            withExtension: "icns"
+        ) ?? Bundle.module.url(
+            forResource: "AppIcon",
+            withExtension: "png"
+        )
+        if let iconURL,
+            let icon = NSImage(contentsOf: iconURL)
+        {
+            NSApplication.shared.applicationIconImage = icon
+        }
         NSApplication.shared.activate(ignoringOtherApps: true)
     }
 

@@ -5,6 +5,10 @@ Versioning while releases remain in the `0.x` series.
 
 ## Unreleased
 
+### Added
+
+- Original graphite, ivory, coral, and teal application icon.
+
 ## 0.1.0 - 2026-07-23
 
 ### Added

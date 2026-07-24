@@ -28,6 +28,8 @@
 		B10000000000000000000013 /* coastal-square-footer.png in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000014 /* coastal-square-footer.png */; };
 		B10000000000000000000014 /* gouache-swatch.png in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015 /* gouache-swatch.png */; };
 		B10000000000000000000015 /* coastal-square-final.png in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000016 /* coastal-square-final.png */; };
+		B10000000000000000000016 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000017 /* AppIcon.png */; };
+		B10000000000000000000017 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000018 /* AppIcon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 		A10000000000000000000014 /* coastal-square-footer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coastal-square-footer.png"; sourceTree = "<group>"; };
 		A10000000000000000000015 /* gouache-swatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gouache-swatch.png"; sourceTree = "<group>"; };
 		A10000000000000000000016 /* coastal-square-final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coastal-square-final.png"; sourceTree = "<group>"; };
+		A10000000000000000000017 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		A10000000000000000000018 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 		C10000000000000000000004 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A10000000000000000000018 /* AppIcon.icns */,
+				A10000000000000000000017 /* AppIcon.png */,
 				A1000000000000000000000C /* coastal-landscape.png */,
 				A1000000000000000000000D /* coastal-square.png */,
 				A10000000000000000000014 /* coastal-square-footer.png */,
@@ -219,6 +225,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10000000000000000000017 /* AppIcon.icns in Resources */,
+				B10000000000000000000016 /* AppIcon.png in Resources */,
 				B1000000000000000000000D /* coastal-landscape.png in Resources */,
 				B1000000000000000000000E /* coastal-square.png in Resources */,
 				B10000000000000000000013 /* coastal-square-footer.png in Resources */,
